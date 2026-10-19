@@ -38,62 +38,77 @@
     </nav>
 
     {{-- PORTADA --}}
-    <header class="portada">
-        <div class="container">
-            <div class="row align-items-center g-5">
+    <main class="contenido-principal">
+        <header class="portada">
+            <div class="container">
+                <div class="row align-items-center g-5">
 
-                <div class="col-lg-6">
-                    <span class="etiqueta-centro">
-                        <span class="punto-verde"></span> Centro de Salud San Vicente
-                    </span>
+                    <div class="col-lg-6">
+                        <span class="etiqueta-centro">
+                            <span class="punto-verde"></span> Centro de Salud San Vicente
+                        </span>
 
-                    <h1 class="titulo-portada">Tu salud, sin filas ni esperas.</h1>
+                        <h1 class="titulo-portada">Tu salud, sin filas ni esperas.</h1>
 
-                    <p class="texto-portada">
-                        Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.
-                        Estamos más cerca de ti.
-                    </p>
+                        <p class="texto-portada">
+                            Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.
+                            Estamos más cerca de ti.
+                        </p>
 
-                    <div class="d-flex flex-wrap gap-3 mb-4">
-                        <a href="{{ url('/citas/agendar') }}" class="btn boton-principal">Agendar una cita</a>
-                        <a href="{{ url('/servicios') }}" class="btn boton-secundario">Conocer servicios</a>
-                    </div>
-
-                    <div class="pacientes">
-                        <div class="grupo-avatares">
-                            <span class="avatar avatar-1">LM</span>
-                            <span class="avatar avatar-2">AR</span>
-                            <span class="avatar avatar-3">JS</span>
+                        <div class="d-flex flex-wrap gap-3 mb-4">
+                            <a href="{{ url('/citas/agendar') }}" class="btn boton-principal">Agendar una cita</a>
+                            <a href="{{ url('/servicios') }}" class="btn boton-secundario">Conocer servicios</a>
                         </div>
-                        <span class="texto-pacientes">Más de 500 pacientes atendidos</span>
+
+                        <div class="pacientes">
+                            <div class="grupo-avatares">
+                                <span class="avatar avatar-1">LM</span>
+                                <span class="avatar avatar-2">AR</span>
+                                <span class="avatar avatar-3">JS</span>
+                            </div>
+                            <span class="texto-pacientes">Más de 500 pacientes atendidos</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-6">
-                    <div class="contenedor-foto">
-                        <img src="{{ asset('img/portada.jpg') }}" alt="Personal de salud sonriendo" class="foto-portada">
+                    <div class="col-lg-6">
+                        <div class="contenedor-foto">
+                            <img src="{{ asset('img/portada.jpg') }}" alt="Personal de salud sonriendo" class="foto-portada">
 
-                        <div class="tarjeta-disponibilidad">
-                            <span class="icono-calendario" aria-hidden="true">
-                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-                                    <line x1="16" y1="2" x2="16" y2="6"></line>
-                                    <line x1="8" y1="2" x2="8" y2="6"></line>
-                                    <line x1="3" y1="10" x2="21" y2="10"></line>
-                                </svg>
-                            </span>
-                            <div>
-                                <small class="d-block texto-suave">Próxima disponibilidad</small>
-                                <strong>{{ $proximaDisponibilidad ?? 'Hoy, 2:00 p. m.' }}</strong>
+                            <div class="tarjeta-disponibilidad">
+                                <span class="icono-calendario" aria-hidden="true">
+                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <small class="d-block texto-suave">Próxima disponibilidad</small>
+                                    <strong>{{ $proximaDisponibilidad ?? 'Hoy, 2:00 p. m.' }}</strong>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
+        </header>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <span>© {{ date('Y') }} SaludNow. Todos los derechos reservados.</span>
+            <nav class="d-flex gap-3">
+                <a href="{{ url('/servicios') }}">Servicios</a>
+                <a href="{{ url('/ayuda') }}">Ayuda</a>
+                <a href="{{ url('/contacto') }}">Contacto</a>
+            </nav>
         </div>
-    </header>
+    </footer>
+
+    {{-- SCRIPTS --}}
 
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </body>

@@ -220,6 +220,34 @@ body {
     color: #7a8c87;
 }
 
+/* ===== Footer siempre abajo ===== */
+.cuerpo-pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenido-principal {
+    flex: 1 0 auto;
+}
+
+.pie-pagina {
+    flex-shrink: 0;
+    background: var(--color-titulo);
+    color: #cfe3dd;
+    padding: 1.5rem 0;
+    font-size: 0.95rem;
+}
+
+.pie-pagina a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pie-pagina a:hover {
+    text-decoration: underline;
+}
+
 /* ===== Celulares ===== */
 @media (max-width: 991.98px) {
     .portada {
