@@ -220,6 +220,21 @@ body {
     color: #7a8c87;
 }
 
+/* ===== Celulares ===== */
+@media (max-width: 991.98px) {
+    .portada {
+        padding: 2.5rem 0 4rem;
+    }
+
+    .foto-portada {
+        height: 340px;
+    }
+
+    .tarjeta-disponibilidad {
+        left: 1rem;
+    }
+}
+
 /* ===== Footer siempre abajo ===== */
 .cuerpo-pagina {
     display: flex;
@@ -248,17 +263,19 @@ body {
     text-decoration: underline;
 }
 
-/* ===== Celulares ===== */
-@media (max-width: 991.98px) {
-    .portada {
-        padding: 2.5rem 0 4rem;
-    }
+/* ===== Botones de la barra ===== */
+.boton-pequeno {
+    padding: 0.6rem 1.4rem;
+    box-shadow: none;
+}
 
-    .foto-portada {
-        height: 340px;
-    }
+.boton-texto {
+    background: none;
+    border: 0;
+    font-weight: 700;
+    color: var(--color-texto);
+}
 
-    .tarjeta-disponibilidad {
-        left: 1rem;
-    }
+.boton-texto:hover {
+    color: var(--color-primario);
 }
