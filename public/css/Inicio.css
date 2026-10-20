@@ -59,6 +59,49 @@
     cursor: pointer;
 }
 
+/* Altura de la imagen principal */
+.hero-img {
+    max-height: 480px;
+}
+
+/* Contenedor relativo para posicionar las tarjetas flotantes */
+.hero-image-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* Estilo base de las tarjetas flotantes */
+.floating-card {
+    position: absolute;
+    z-index: 10;
+    min-width: 210px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Posición de la Tarjeta 1 (Abajo Izquierda) */
+.card-bottom-left {
+    bottom: -20px;
+    left: -20px;
+}
+
+/* Posición de la Tarjeta 2 (Arriba Derecha) */
+.card-top-right {
+    top: 20px;
+    right: -15px;
+}
+
+/* Adaptación responsive para pantallas pequeñas (móviles) */
+@media (max-width: 991px) {
+    .floating-card {
+        position: relative;
+        bottom: auto;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin-top: 15px;
+    }
+}
+
 footer{
     background-color: #5faca0;
     color: white;

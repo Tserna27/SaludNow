@@ -56,18 +56,55 @@
   </nav>
 
   <!-- MAIN CONTENT -->
-  <main class="flex-shrink-0 flex-grow-1">
-    <div class="d-flex flex-column align-items-center justify-content-center">
-      <div class="container py-5">
-        <h1>Bienvenidos a SaludNow</h1>
-        <p class="lead">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
-        <p class="lead mb-2">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
-        <a href="#" class="btn rounded-pill px-4 border boton1">Agendar una cita</a>
-        <a href="#" class="btn rounded-pill px-4 border boton2">Conocer servicios</a>
+  <main class="flex-shrink-0 flex-grow-1 d-flex align-items-center">
+    <div class="container py-5">
+      
+      <!-- Fila principal que alinea el texto a la izquierda y la imagen a la derecha -->
+        <div class="row align-items-center gy-5">
+        
+        <!-- COLUMNA IZQUIERDA: Textos y botones -->
+        <div class="col-12 col-lg-6 text-start">
+
+            <h1 class="fw-bold text-dark display-4 mb-3">Tu salud, sin filas ni esperas.</h1>
+            <p class="lead text-secondary mb-2">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
+            <p class="text-secondary mb-4">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
+            
+            <div class="d-flex flex-wrap gap-3">
+                <a href="#" class="btn rounded-pill px-4 py-2 border boton1">Agendar una cita</a>
+                <a href="#" class="btn rounded-pill px-4 py-2 border boton2">Conocer servicios</a>
+          </div>
+        </div>
+
+        <!-- COLUMNA DERECHA: Imagen con dos tarjetas flotantes de preguntas -->
+        <div class="col-12 col-lg-6">
+            <div class="hero-image-wrapper position-relative">
+                
+                <!-- Imagen principal -->
+                <img src="{{ asset('imagenes/Chica-medica.jpg') }}" alt="Chica médica" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover hero-img">
+
+                <!-- TARJETA FLOTANTE 1 (Pregunta abajo a la izquierda) -->
+                <div class="floating-card card-bottom-left bg-white p-3 rounded-4 shadow d-flex align-items-center gap-3">
+                <div class="bg-light text-success p-2 rounded-3 fs-4">❓</div>
+                <div>
+                    <span class="text-muted small d-block">¿Necesitas ayuda?</span>
+                    <strong class="text-dark">¿Cómo agendar mi cita?</strong>
+                </div>
+                </div>
+
+                <!-- TARJETA FLOTANTE 2 (Pregunta arriba a la derecha) -->
+                <div class="floating-card card-top-right bg-white p-3 rounded-4 shadow d-flex align-items-center gap-3">
+                <div class="bg-light text-primary p-2 rounded-3 fs-4">💬</div>
+                <div>
+                    <strong class="text-dark d-block">¿Tienes dudas?</strong>
+                    <span class="text-muted small">Consultar especialistas</span>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
       </div>
-      <div class="container py-5">
-        <img src="{{ asset('imagenes/Chica-medica.jpg') }}" alt="Imagen de ejemplo" class="img-fluid" width="100"> 
-      </div>
+
     </div>
   </main>
 
