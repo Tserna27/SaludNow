@@ -17,7 +17,7 @@
       
       <!-- LOGO (A la izquierda) -->
       <a class="navbar-brand" href="#">
-        <img src="{{asset('imagenes/logo2.png')}}" alt="Logo" width="100"class="d-inline-block align-text-top">
+        <img src="{{asset('imagenes/logo3.png')}}" alt="Logo" width="100"class="d-inline-block align-text-top">
       </a>
       
       <!-- Botón Hamburguesa (Solo para móvil) -->
