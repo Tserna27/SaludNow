@@ -66,6 +66,7 @@ footer{
 /* Selecciona el texto dentro del footer que tiene la clase container */
 footer.container {
     color: white;
+    font-weight: bold;
 }
 
 .enlaces-footer a {
