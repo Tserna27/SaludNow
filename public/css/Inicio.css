@@ -80,14 +80,14 @@
 
 /* Posición de la Tarjeta 1 (Abajo Izquierda) */
 .card-bottom-left {
-    top: 30px;
+    top: 40px;
     left: -80px;
 }
 
 /* Posición de la Tarjeta 2 (Arriba Derecha) */
 .card-top-right {
-    bottom: 30px;
-    right: -10px;
+    bottom: 40px;
+    right: -30px;
 }
 
 /* Adaptación responsive para pantallas pequeñas (móviles) */
