@@ -55,8 +55,13 @@
     </div>
   </nav>
 
-  <!-- CONTENIDO VACÍO QUE EMPUJA EL FOOTER HASTA ABAJO -->
+  <!-- MAIN CONTENT -->
   <main class="flex-shrink-0 flex-grow-1">
+    <div>
+      <div class="container py-5">
+        <h1 class="text-center mb-4">Bienvenidos a SaludNow</h1>
+        <p class="lead text-center">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
+      </div>
   </main>
 
   <!-- FOOTER -->
