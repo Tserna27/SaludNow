@@ -12,7 +12,7 @@
 <body class="d-flex flex-column h-100">
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-2">
     <!-- CAMBIO: Se usa container en vez de container-fluid para que no se pegue a los bordes -->
     <div class="container">
       
@@ -65,7 +65,7 @@
         <!-- COLUMNA IZQUIERDA: Textos y botones -->
         <div class="col-12 col-lg-6 text-start">
 
-            <h1 class="fw-bold text-dark display-4 mb-3">Tu salud, sin filas ni esperas.</h1>
+            <h1 class="fw-bold text-dark display-4 mb-3">Bienvenidos a SaludNow</h1>
             <p class="lead text-secondary mb-2">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
             <p class="text-secondary mb-4">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
             
@@ -80,7 +80,7 @@
             <div class="hero-image-wrapper position-relative">
                 
                 <!-- Imagen principal -->
-                <img src="{{ asset('imagenes/Chica-medica.jpg') }}" alt="Chica médica" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover hero-img">
+                <img src="{{ asset('imagenes/Chica-medica.png') }}" alt="Chica médica" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover hero-img">
 
                 <!-- TARJETA FLOTANTE 1 (Pregunta abajo a la izquierda) -->
                 <div class="floating-card card-bottom-left bg-white p-3 rounded-4 shadow d-flex align-items-center gap-3">
