@@ -7,6 +7,7 @@
   <!-- Bootstrap 5 CSS -->
   <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('css/Inicio.css') }}" rel="stylesheet">
+  <link href="{{asset('favicon/android-icon-192x192.png')}}" rel="icon" type="image/x-icon">
 </head>
 <body class="d-flex flex-column h-100">
 
