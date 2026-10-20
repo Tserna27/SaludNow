@@ -41,9 +41,11 @@ footer.container {
     color: white;
 }
 
-/* CORRECCIÓN: Se añade un espacio antes de la "a" para afectar a los enlaces internos */
+footer.a{
+    color: white;
+}
 
 /* Opcional: Para que cambien de color al pasar el mouse por encima */
-footer.container.a:hover {
+footer.a:hover {
     color: #0b8fac; /* O el color que prefieras para el hover */
 }
