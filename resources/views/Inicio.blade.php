@@ -59,7 +59,8 @@
   <main class="flex-shrink-0 flex-grow-1">
     <div>
       <div class="container py-5">
-        <h1 class="mb-4">Bienvenidos a SaludNow</h1>
+        <h1>Bienvenidos a SaludNow</h1>
+        <p class="lead">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
         <p class="lead">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
       </div>
 
