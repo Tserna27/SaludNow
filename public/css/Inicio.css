@@ -59,15 +59,11 @@
     cursor: pointer;
 }
 
-/* Altura de la imagen principal */
-.hero-img {
-    max-height: 480px;
-}
-
 /* Contenedor relativo para posicionar las tarjetas flotantes */
 .hero-image-wrapper {
     position: relative;
     width: 100%;
+    margin-top: 30px; /* ¡Añade esto para dejar espacio arriba de la imagen! */
 }
 
 /* Estilo base de las tarjetas flotantes */
@@ -78,16 +74,16 @@
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-/* Posición de la Tarjeta 1 (Abajo Izquierda) */
+/* Posición de la Tarjeta 1 (La subimos más para que quede flotando fuera de la imagen) */
 .card-bottom-left {
-    top: 40px;
-    left: -80px;
+    top: -25px; /* Valor negativo para que suba y no tape la cara */
+    left: -60px;
 }
 
-/* Posición de la Tarjeta 2 (Arriba Derecha) */
+/* Posición de la Tarjeta 2 (Abajo a la derecha o izquierda según lo tengas) */
 .card-top-right {
-    bottom: 40px;
-    right: -45px;
+    bottom: 20px;
+    right: -25px;
 }
 
 /* Adaptación responsive para pantallas pequeñas (móviles) */
