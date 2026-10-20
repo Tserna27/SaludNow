@@ -59,11 +59,6 @@
     cursor: pointer;
 }
 
-/* Altura de la imagen principal */
-.hero-img {
-    max-height: 480px;
-}
-
 /* Contenedor relativo para posicionar las tarjetas flotantes */
 .hero-image-wrapper {
     position: relative;
