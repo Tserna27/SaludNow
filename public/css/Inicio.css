@@ -81,13 +81,13 @@
 /* Posición de la Tarjeta 1 (Abajo Izquierda) */
 .card-bottom-left {
     top: 30px;
-    left: -40px;
+    left: -60px;
 }
 
 /* Posición de la Tarjeta 2 (Arriba Derecha) */
 .card-top-right {
     bottom: 30px;
-    right: -40px;
+    right: -60px;
 }
 
 /* Adaptación responsive para pantallas pequeñas (móviles) */
