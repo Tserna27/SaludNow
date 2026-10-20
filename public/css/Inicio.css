@@ -14,10 +14,20 @@
     font-weight: bold;
     font-size: 1rem;
     transition: color 0.2s ease-in-out; /* Opcional: para que el cambio de color sea suave */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
 }
 
 /* Estilo cuando pasas el mouse por encima (hover) */
 .navbar-nav .nav-link:hover {
     color: #0b8fac;
-    text-decoration: underline;
+}
+
+footer.container{
+    background-color: #0b8fac;
+    color: white;
+}
+
+footer.container a {
+    color: white;
+    text-decoration: none; /* Elimina el subrayado predeterminado */
 }
