@@ -3,8 +3,18 @@
       height: 100%;
       margin: 0;
     }
-    
+
 /* Espaciado elegante y limpio para el navbar */
     .navbar {
     box-shadow: 0 2px 4px rgba(0,0,0,0.04);
     }
+
+.nav-item.nav-link{
+    color: #7bc1b7;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.nav-item.nav-link:hover {
+    color: #0b8fac;
+    text-decoration: underline;
+}
