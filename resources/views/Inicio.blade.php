@@ -12,7 +12,7 @@
 <body class="d-flex flex-column h-100">
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
     <!-- CAMBIO: Se usa container en vez de container-fluid para que no se pegue a los bordes -->
     <div class="container">
       
