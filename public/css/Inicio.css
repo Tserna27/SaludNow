@@ -1,4 +1,10 @@
   /* Garantiza que la pantalla ocupe el 100% de la altura de la ventana */
     html, body {
       height: 100%;
+      margin: 0;
+    }
+    
+/* Espaciado elegante y limpio para el navbar */
+    .navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
     }
