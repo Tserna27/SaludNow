@@ -57,15 +57,17 @@
 
   <!-- MAIN CONTENT -->
   <main class="flex-shrink-0 flex-grow-1">
-    <div>
+    <div class="d-flex flex-column align-items-center justify-content-center">
       <div class="container py-5">
         <h1>Bienvenidos a SaludNow</h1>
         <p class="lead">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
-        <p class="lead">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
+        <p class="lead mb-2">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
         <a href="#" class="btn rounded-pill px-4 border boton1">Agendar una cita</a>
         <a href="#" class="btn rounded-pill px-4 border boton2">Conocer servicios</a>
       </div>
-    
+      <div class="container py-5">
+        <img src="{{ asset('imagenes/chica-medica.jpg') }}" alt="Imagen de ejemplo" class="img-fluid" width="100"> 
+      </div>
     </div>
   </main>
 
