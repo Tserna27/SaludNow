@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Navbar & Sticky Footer</title>
+  <title>Inicio</title>
   <!-- Bootstrap 5 CSS -->
   <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('css/Inicio.css') }}" rel="stylesheet">
@@ -16,7 +16,9 @@
     <div class="container-fluid">
       
       <!-- LOGO (A la izquierda) -->
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">
+        <img src="{{asset('imagenes/logo2.png')}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      </a>
       
       <!-- Botón Hamburguesa (Solo para móvil) -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
