@@ -2,6 +2,8 @@
     html, body {
       height: 100%;
       margin: 0;
+      background: linear-gradient(135deg, #e4f1ec 0%, #f4f8f6 50%, #d8eae4 100%);
+      background-attachment: fixed; /* Mantiene el degradado fijo al hacer scroll */
     }
 
 /* Espaciado elegante y limpio para el navbar */
@@ -31,6 +33,31 @@
 .navbar-nav .nav-link:hover {
     color: #0b8fac;
 }
+.boton1{
+    background-color: #477a73;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.boton2{
+    background-color: #9eb5b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 footer{
     background-color: #5faca0;
@@ -43,6 +70,7 @@ footer.container {
 
 .enlaces-footer a {
     color: white;
+    font-weight: bold;
     text-decoration: none; /* Elimina el subrayado predeterminado */
     margin-right: 15px; /* Espaciado entre enlaces */
 }

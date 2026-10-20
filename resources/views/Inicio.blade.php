@@ -59,9 +59,16 @@
   <main class="flex-shrink-0 flex-grow-1">
     <div>
       <div class="container py-5">
-        <h1 class="text-center mb-4">Bienvenidos a SaludNow</h1>
-        <p class="lead text-center">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
+        <h1 class="mb-4">Bienvenidos a SaludNow</h1>
+        <p class="lead">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
       </div>
+
+      <div class="d-flex flex-wrap gap-3 mb-4">
+        <a href="#" class="btn rounded-pill px-4 border boton1">Agendar una cita</a>
+        <a href="#" class="btn rounded-pill px-4 border boton2">Conocer servicios</a>
+      </div>
+    
+    </div>
   </main>
 
   <!-- FOOTER -->
