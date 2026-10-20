@@ -11,68 +11,93 @@
 </head>
 <body class="cuerpo-pagina">
  
-    {{-- BARRA DE NAVEGACIÓN --}}
-    <nav class="navbar navbar-expand-lg barra-navegacion">
-        <div class="container">
-            <a class="navbar-brand marca" href="{{ url('/') }}">
-                <span class="marca-icono">+</span>
-                <span class="marca-texto">Salud<span class="marca-acento">Now</span></span>
-            </a>
+   
  
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
-                    aria-expanded="false" aria-label="Abrir menú">
-                <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
- 
-            <div class="collapse navbar-collapse" id="menuPrincipal">
-                <ul class="navbar-nav mx-auto gap-lg-3">
-                    <li class="nav-item">
-                        <a class="nav-link enlace-menu {{ request()->is('/') ? 'activo' : '' }}" href="{{ url('/') }}">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link enlace-menu {{ request()->is('citas/agendar*') ? 'activo' : '' }}" href="{{ url('/citas/agendar') }}">Agendar cita</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link enlace-menu {{ request()->is('servicios*') ? 'activo' : '' }}" href="{{ url('/servicios') }}">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link enlace-menu {{ request()->is('ayuda*') ? 'activo' : '' }}" href="{{ url('/ayuda') }}">Ayuda</a>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
- 
-                <div class="d-flex align-items-center gap-2">
-                    @guest
-                        <a href="{{ url('/iniciar-sesion') }}" class="btn boton-contorno">Iniciar sesión</a>
-                        <a href="{{ url('/registro') }}" class="btn boton-principal boton-pequeno">Registrarse</a>
-                    @endguest
- 
-                    @auth
-                        <a href="{{ url('/citas') }}" class="btn boton-contorno">Mis citas</a>
-                        <form method="POST" action="{{ url('/cerrar-sesion') }}">
-                            @csrf
-                            <button type="submit" class="btn boton-texto">Cerrar sesión</button>
-                        </form>
-                    @endauth
-                </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
             </div>
         </div>
     </nav>
- 
-    {{-- CONTENIDO DE CADA PÁGINA --}}
-    <main class="contenido-principal">
-        @yield('contenido')
+
+    <main class="flex-grow-1">
     </main>
- 
-    {{-- FOOTER --}}
-    <footer class="pie-pagina">
-        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-            <span>© {{ date('Y') }} SaludNow. Todos los derechos reservados.</span>
-            <nav class="d-flex gap-3" aria-label="Enlaces del pie de página">
-                <a href="{{ url('/servicios') }}">Servicios</a>
-                <a href="{{ url('/ayuda') }}">Ayuda</a>
-                <a href="{{ url('/contacto') }}">Contacto</a>
-            </nav>
+
+    <footer class="bg-dark text-white pt-5 pb-3 mt-auto">
+        <div class="container">
+        <div class="row gy-4">
+            
+            <!-- Columna 1: Información / Marca -->
+            <div class="col-12 col-md-4 text-center text-md-start">
+            <h5 class="fw-bold mb-3">Logo</h5>
+            <p class="text-secondary small">
+                Ofrecemos las mejores soluciones y servicios para tu negocio. Conéctate con nosotros en nuestras redes.
+            </p>
+            </div>
+
+            <!-- Columna 2: Enlaces Rápidos -->
+            <div class="col-6 col-md-4 text-center">
+            <h5 class="fw-bold mb-3">Enlaces</h5>
+            <ul class="list-unstyled">
+                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none hover-white">Inicio</a></li>
+                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none hover-white">Servicios</a></li>
+                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none hover-white">Nosotros</a></li>
+                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none hover-white">Contacto</a></li>
+            </ul>
+            </div>
+
+            <!-- Columna 3: Redes Sociales / Contacto -->
+            <div class="col-6 col-md-4 text-center text-md-end">
+            <h5 class="fw-bold mb-3">Síguenos</h5>
+            <div class="d-flex justify-content-center justify-content-md-end gap-3 fs-4 mb-3">
+                <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-secondary"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-secondary"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="text-secondary small mb-0">info@misitio.com</p>
+            </div>
+
+        </div>
+
+        <hr class="border-secondary my-4">
+
+        <!-- Línea inferior de Copyright -->
+        <div class="row">
+            <div class="col text-center">
+            <p class="text-secondary small mb-0">&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+            </div>
+        </div>
         </div>
     </footer>
  
