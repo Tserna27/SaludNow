@@ -42,9 +42,6 @@ footer.container {
 }
 
 /* CORRECCIÓN: Se añade un espacio antes de la "a" para afectar a los enlaces internos */
-footer.container.a {
-    color: white;
-}
 
 /* Opcional: Para que cambien de color al pasar el mouse por encima */
 footer.container.a:hover {
