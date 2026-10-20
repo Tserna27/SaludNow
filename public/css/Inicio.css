@@ -42,11 +42,9 @@ footer.container {
 /* CORRECCIÓN: Se añade un espacio antes de la "a" para afectar a los enlaces internos */
 footer.container a {
     color: white;
-    text-decoration: none; /* Elimina el subrayado predeterminado */
 }
 
 /* Opcional: Para que cambien de color al pasar el mouse por encima */
 footer.container a:hover {
     color: #7bc1b7; /* O el color que prefieras para el hover */
-    text-decoration: underline;
 }

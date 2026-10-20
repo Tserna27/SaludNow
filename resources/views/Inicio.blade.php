@@ -65,13 +65,13 @@
     <div class="container">
       <div class="row gy-2 align-items-center">
         <div class="col-12 col-md-6 text-center text-md-start">
-          <p class="mb-0 text-secondary">&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+          <p class="mb-0">&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
         </div>
         <div class="col-12 col-md-6 text-center text-md-end">
-          <a href="#" class="text-secondary text-decoration-none me-3">Privacidad</a>
-          <a href="#" class="text-secondary text-decoration-none me-3">Terminos y Condiciones</a>
-          <a href="#" class="text-secondary text-decoration-none me-3">Blog</a>
-          <a href="#" class="text-secondary text-decoration-none">Ayuda</a>
+          <a href="#" class="text-decoration-none me-3">Privacidad</a>
+          <a href="#" class="text-decoration-none me-3">Terminos y Condiciones</a>
+          <a href="#" class="text-decoration-none me-3">Blog</a>
+          <a href="#" class="text-decoration-none">Ayuda</a>
         </div>
       </div>
     </div>
