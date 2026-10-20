@@ -66,7 +66,7 @@
         <a href="#" class="btn rounded-pill px-4 border boton2">Conocer servicios</a>
       </div>
       <div class="container py-5">
-        <img src="{{ asset('imagenes/chica-medica.jpg') }}" alt="Imagen de ejemplo" class="img-fluid" width="100"> 
+        <img src="{{ asset('imagenes/Chica-medica.jpg') }}" alt="Imagen de ejemplo" class="img-fluid" width="100"> 
       </div>
     </div>
   </main>
