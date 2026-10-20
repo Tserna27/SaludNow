@@ -80,7 +80,7 @@
             <div class="hero-image-wrapper position-relative">
                 
                 <!-- Imagen principal -->
-                <img src="{{ asset('imagenes/Chica-medica.png') }}" alt="Chica médica" class="img-fluid rounded-4 shadow-sm w-100" style="max-height: 480px; object-fit: contain;">
+                <img src="{{ asset('imagenes/Chica-medica.png') }}" alt="Chica médica" class="img-fluid rounded-4 w-100 shadow-sm object-fit-cover hero-img">
 
                 <!-- TARJETA FLOTANTE 1 (Pregunta abajo a la izquierda) -->
                 <div class="floating-card card-bottom-left bg-white p-3 rounded-4 shadow d-flex align-items-center gap-3">
