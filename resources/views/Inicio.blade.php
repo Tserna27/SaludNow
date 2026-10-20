@@ -63,7 +63,7 @@
         <p class="lead">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
       </div>
 
-      <div class="d-flex flex-wrap gap-3 mb-4">
+      <div class="container text-center py-5">
         <a href="#" class="btn rounded-pill px-4 border boton1">Agendar una cita</a>
         <a href="#" class="btn rounded-pill px-4 border boton2">Conocer servicios</a>
       </div>
