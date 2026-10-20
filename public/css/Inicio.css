@@ -41,11 +41,13 @@ footer.container {
     color: white;
 }
 
-footer, div.a{
+.enlaces-footer a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    margin-right: 15px; /* Espaciado entre enlaces */
 }
 
-footer, div.a:hover {
-    color: #38656f;
+.enlaces-footer a:hover {
+    color: #374a4f; /* Cambia el color al pasar el mouse */
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
 }

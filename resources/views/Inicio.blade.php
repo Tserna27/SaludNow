@@ -67,7 +67,7 @@
         <div class="col-12 col-md-6 text-center text-md-start">
           <p class="mb-0">&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
         </div>
-        <div class="col-12 col-md-6 text-center text-md-end">
+        <div class="col-12 col-md-6 text-center text-md-end enlaces-footer">
           <a href="#" class="me-3">Privacidad</a>
           <a href="#" class="me-3">Terminos y Condiciones</a>
           <a href="#" class="me-3">Blog</a>
