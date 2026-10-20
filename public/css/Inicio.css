@@ -1,0 +1,4 @@
+  /* Garantiza que la pantalla ocupe el 100% de la altura de la ventana */
+    html, body {
+      height: 100%;
+    }
