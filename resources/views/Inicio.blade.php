@@ -62,9 +62,6 @@
         <h1>Bienvenidos a SaludNow</h1>
         <p class="lead">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
         <p class="lead">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
-      </div>
-
-      <div class="container py-5">
         <a href="#" class="btn rounded-pill px-4 border boton1">Agendar una cita</a>
         <a href="#" class="btn rounded-pill px-4 border boton2">Conocer servicios</a>
       </div>
