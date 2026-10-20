@@ -9,7 +9,7 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.04);
     }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link.nav-link.active {
     color: #7bc1b7;
     font-weight: bold;
     font-size: 1rem;
@@ -17,16 +17,12 @@
     text-decoration: none; /* Elimina el subrayado predeterminado */
 }
 
-.nav-link.active {
-    color: #7bc1b7; /* Color para el enlace activo */
-}
-
 /* Estilo cuando pasas el mouse por encima (hover) */
 .navbar-nav .nav-link:hover.nav-link.active {
     color: #0b8fac;
 }
 
-footer.container{
+footer{
     background-color: #0b8fac;
     color: white;
 }
