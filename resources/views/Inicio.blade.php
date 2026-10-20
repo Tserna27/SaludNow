@@ -70,8 +70,8 @@
             <p class="text-secondary mb-2">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
             
             <div class="d-flex flex-wrap gap-3">
-                <a href="#" class="btn rounded-pill px-4 py-2 border boton1">Agendar una cita</a>
-                <a href="#" class="btn rounded-pill px-4 py-2 border boton2">Conocer servicios</a>
+                <a href="#" class="btn rounded-pill px-4 py-2 border boton1">Nuestra visión</a>
+                <a href="#" class="btn rounded-pill px-4 py-2 border boton2">Nuestra misión</a>
           </div>
         </div>
 

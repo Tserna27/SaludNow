@@ -74,7 +74,7 @@
 .floating-card {
     position: absolute;
     z-index: 10;
-    min-width: 210px;
+    min-width: 200px;
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -87,7 +87,7 @@
 /* Posición de la Tarjeta 2 (Arriba Derecha) */
 .card-top-right {
     bottom: 40px;
-    left: 80px;
+    right: -80px;
 }
 
 /* Adaptación responsive para pantallas pequeñas (móviles) */
