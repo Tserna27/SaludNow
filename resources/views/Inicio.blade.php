@@ -60,7 +60,8 @@
         </div>
         <div class="col-12 col-md-6 text-center text-md-end">
           <a href="#" class="text-white text-decoration-none me-3">Privacidad</a>
-          <a href="#" class="text-white text-decoration-none me-3">Términos</a>
+          <a href="#" class="text-white text-decoration-none me-3">Terminos y Condiciones</a>
+          <a href="#" class="text-white text-decoration-none me-3">Blog</a>
           <a href="#" class="text-white text-decoration-none">Ayuda</a>
         </div>
       </div>
