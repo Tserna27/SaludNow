@@ -12,13 +12,13 @@
 <body class="d-flex flex-column h-100">
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-2">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-1">
     <!-- CAMBIO: Se usa container en vez de container-fluid para que no se pegue a los bordes -->
     <div class="container">
       
       <!-- LOGO (A la izquierda) -->
       <a class="navbar-brand" href="#">
-        <img src="{{ asset('imagenes/logo2.png') }}" alt="Logo" width="90" class="d-inline-block align-text-top">
+        <img src="{{ asset('imagenes/logo2.png') }}" alt="Logo" width="130" class="d-inline-block align-text-top">
       </a>
       
       <!-- Botón Hamburguesa (Solo para móvil) -->
@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
         <!-- ELEMENTOS EN EL MEDIO -->
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+        <ul class="navbar-nav mx-auto mb-lg-0 text-center">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
@@ -65,9 +65,9 @@
         <!-- COLUMNA IZQUIERDA: Textos y botones -->
         <div class="col-12 col-lg-6 text-start">
 
-            <h1 class="fw-bold text-dark display-4 mb-3">Bienvenidos a SaludNow</h1>
-            <p class="lead text-secondary mb-2">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
-            <p class="text-secondary mb-4">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
+            <h1 class="fw-bold text-dark display-4">Bienvenidos a SaludNow</h1>
+            <p class="lead text-secondary">Agenda tu cita médica de forma fácil, segura y desde cualquier dispositivo.</p>
+            <p class="text-secondary mb-2">Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
             
             <div class="d-flex flex-wrap gap-3">
                 <a href="#" class="btn rounded-pill px-4 py-2 border boton1">Agendar una cita</a>
@@ -80,7 +80,7 @@
             <div class="hero-image-wrapper position-relative">
                 
                 <!-- Imagen principal -->
-                <img src="{{ asset('imagenes/Chica-medica.png') }}" alt="Chica médica" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover hero-img">
+                <img src="{{ asset('imagenes/Chica-medica.png') }}" alt="Chica médica" class="img-fluid rounded-4 shadow-sm w-75 object-fit-cover hero-img">
 
                 <!-- TARJETA FLOTANTE 1 (Pregunta abajo a la izquierda) -->
                 <div class="floating-card card-bottom-left bg-white p-3 rounded-4 shadow d-flex align-items-center gap-3">
