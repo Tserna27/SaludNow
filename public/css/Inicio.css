@@ -61,8 +61,8 @@
 
 /* Altura de la imagen principal */
 .hero-img {
-    width: 110%;
-    height: 10%;
+    width: 105%;
+    height: 105%;
     max-height: 480px;
 }
 
@@ -89,7 +89,7 @@
 /* Posición de la Tarjeta 2 (Arriba Derecha) */
 .card-top-right {
     bottom: 40px;
-    right: -80px;
+    right: -75px;
 }
 
 /* Adaptación responsive para pantallas pequeñas (móviles) */
