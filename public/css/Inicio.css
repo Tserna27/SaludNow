@@ -9,6 +9,14 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.04);
     }
 
+.navbar-nav .nav-link.nav-link {
+    color: #7bc1b7;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out; /* Opcional: para que el cambio de color sea suave */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
 .navbar-nav .nav-link.nav-link.active {
     color: #7bc1b7;
     font-weight: bold;
@@ -26,11 +34,19 @@ footer{
     background-color: #0b8fac;
     color: white;
 }
-
-footer.container.a {
+/* Selecciona el texto dentro del footer que tiene la clase container */
+footer.container {
     color: white;
 }
-footer.container.a {
+
+/* CORRECCIÓN: Se añade un espacio antes de la "a" para afectar a los enlaces internos */
+footer.container a {
     color: white;
     text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+/* Opcional: Para que cambien de color al pasar el mouse por encima */
+footer.container a:hover {
+    color: #7bc1b7; /* O el color que prefieras para el hover */
+    text-decoration: underline;
 }
