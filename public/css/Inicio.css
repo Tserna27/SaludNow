@@ -87,7 +87,7 @@
 /* Posición de la Tarjeta 2 (Arriba Derecha) */
 .card-top-right {
     bottom: 30px;
-    left: 5px;
+    right: -10px;
 }
 
 /* Adaptación responsive para pantallas pequeñas (móviles) */
