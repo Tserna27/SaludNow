@@ -68,10 +68,10 @@
           <p class="mb-0">&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
         </div>
         <div class="col-12 col-md-6 text-center text-md-end">
-          <a href="#" class="text-decoration-none me-3">Privacidad</a>
-          <a href="#" class="text-decoration-none me-3">Terminos y Condiciones</a>
-          <a href="#" class="text-decoration-none me-3">Blog</a>
-          <a href="#" class="text-decoration-none">Ayuda</a>
+          <a href="#" class="me-3">Privacidad</a>
+          <a href="#" class="me-3">Terminos y Condiciones</a>
+          <a href="#" class="me-3">Blog</a>
+          <a href="#" class="me-3">Ayuda</a>
         </div>
       </div>
     </div>

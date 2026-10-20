@@ -42,10 +42,9 @@ footer.container {
 }
 
 footer.a{
-    color: white;
+    color: white !important;
 }
 
-/* Opcional: Para que cambien de color al pasar el mouse por encima */
 footer.a:hover {
     color: #0b8fac; /* O el color que prefieras para el hover */
 }
