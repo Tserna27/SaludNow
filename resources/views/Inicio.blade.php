@@ -60,7 +60,7 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer mt-auto py-3 text-white">
+  <footer class="footer mt-auto py-3">
     <!-- CAMBIO: container aplicado también aquí para mantener la misma línea centrada -->
     <div class="container">
       <div class="row gy-2 align-items-center">
