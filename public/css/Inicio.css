@@ -49,5 +49,5 @@ footer.container {
 
 .enlaces-footer a:hover {
     color: #374a4f; /* Cambia el color al pasar el mouse */
-    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+    text-decoration: none; /* Subraya el enlace al pasar el mouse */
 }
