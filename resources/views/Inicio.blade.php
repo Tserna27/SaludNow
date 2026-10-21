@@ -80,11 +80,11 @@
             <div class="hero-image-wrapper position-relative">
                 
                 <!-- Imagen principal -->
-                <img src="{{ asset('imagenes/Chica-medica.png') }}" alt="Chica médica" class="rounded-4 w-75">
+                <img src="{{ asset('imagenes/Chica-medica.png') }}" alt="Chica médica" class="rounded-circle  w-75">
 
                 <!-- TARJETA FLOTANTE 1 (Pregunta abajo a la izquierda) -->
                 <div class="floating-card card-bottom-left bg-white p-3 rounded-4 shadow d-flex align-items-center gap-3">
-                <div class="bg-light text-success p-1 rounded-3 fs-4">❓</div>
+                <div class="bg-light text-success p-1 rounded-3">❓</div>
                 <div>
                     <span class="text-muted small d-block">¿Necesitas ayuda?</span>
                     <strong class="text-dark">¿Cómo agendar mi cita?</strong>
@@ -93,7 +93,7 @@
 
                 <!-- TARJETA FLOTANTE 2 (Pregunta arriba a la derecha) -->
                 <div class="floating-card card-top-right bg-white p-3 rounded-4 shadow d-flex align-items-center gap-3">
-                <div class="bg-light text-primary p-1 rounded-3 fs-4">💬</div>
+                <div class="bg-light text-primary p-1 rounded-3">💬</div>
                 <div>
                     <strong class="text-dark d-block">¿Tienes dudas?</strong>
                     <span class="text-muted small">Consultar especialistas</span>

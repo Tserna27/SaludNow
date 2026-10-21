@@ -75,14 +75,14 @@
 
 /* Posición de la Tarjeta 1 (La subimos más para que quede flotando fuera de la imagen) */
 .card-bottom-left {
-    top: -25px; /* Valor negativo para que suba y no tape la cara */
+    top: -40px; /* Valor negativo para que suba y no tape la cara */
     left: -60px;
 }
 
 /* Posición de la Tarjeta 2 (Abajo a la derecha o izquierda según lo tengas) */
 .card-top-right {
-    bottom: 20px;
-    right: -25px;
+    bottom: -40px;
+    right: -40px;
 }
 
 /* Adaptación responsive para pantallas pequeñas (móviles) */
